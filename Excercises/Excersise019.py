@@ -11,7 +11,7 @@ def cargar():
             lista.append((hora, actividad))
             continua2 = input("Ingresa otra actividad para la misma fecha[s/n]:")
         agenda[fecha] = lista
-        continua1 = input("Ingresa otra fecha[s/n]:")
+        continua1 = input("Ingresa otra fecha [s/n]:")
     return agenda
 
 
@@ -32,8 +32,8 @@ def consulta_fecha(agenda):
         print("No hay actividades agendadas para dicha fecha")
 
 
-# bloque principal
 
 agenda = cargar()
 imprimir(agenda)
 consulta_fecha(agenda)
+
