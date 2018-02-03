@@ -5,7 +5,7 @@ def cargar_datos():
         lista.append(valor)
     return lista
 
-def verificar_mayot(lista):
+def verificar_mayor(lista):
     may=lista[0]
     for i in range(1,len(lista)):
         if lista[i]>may:
